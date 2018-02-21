@@ -1,0 +1,359 @@
+html,
+body {
+  font-size: 18px;
+  font-family: Helvetica;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #dbdbdb;
+
+}
+
+.navbar {
+  background-color: black;
+}
+.navbar-header,
+footer {
+background-color: black;
+}
+
+
+.logo {
+  display: inline-block;
+}
+
+.logo .container-fluid {
+  display: inline-flex;
+}
+
+.navbar-header img{
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  height: 1.5rem;
+
+}
+
+nav a {
+  font-size: 1rem;
+  padding: 0.66rem;
+  color: white;
+}
+
+ul {
+  justify-content: space-between;
+  background-color: firebrick;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+li, a {
+  padding: 0.75rem 0;
+}
+
+a {
+  text-align: center;
+}
+
+
+
+.jumbotron {
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+height: 25rem;
+}
+
+
+.jumbotron h5 {
+  background-color: black;
+  width: 20rem;
+  padding: 2rem 0 0.25rem 3rem;
+  font-weight: bold;
+  margin-top: 9rem;
+
+}
+
+.jumbotron h1 {
+  background-color: black;
+  width: 20rem;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+
+}
+
+#services {
+  color: black;
+}
+
+#services h2 {
+  padding: 1rem;
+  margin: 2rem;
+
+}
+
+#services a {
+  border: solid black 1px;
+  padding: 1rem;
+  margin: 1rem;
+
+}
+
+#services .row {
+  margin: 3rem;
+}
+
+#morelink a{
+  border: none;
+}
+
+#lawyer {
+  color: black;
+  background-color: #d9d9db;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+#lawyer h1 {
+  padding: 2rem;
+}
+
+.assistance {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.assistance i {
+  height: 3rem;
+}
+
+.inquiry {
+  background-color: black;
+  min-height: 15rem;
+
+
+}
+
+.inquiry input {
+  width: 100%;
+  height: 180px;
+  padding: 0 20px;
+  border: none;
+  margin-right: 5px;
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, .85);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .15);
+  color: #473e39;
+}
+
+.inquiry button{
+  margin: 1rem;
+}
+
+.form {
+  background-color: #d9d9db;
+}
+.form .container{
+  min-height: 15rem;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.form p,
+.form #next,
+.form #prev {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  opacity: 1;
+}
+
+.form .active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem 2rem 2rem;
+  opacity: 1;
+}
+
+
+.item {
+  display: none;
+}
+
+.item input {
+  min-width: 30rem;
+  height: 60px;
+  padding: 0 20px;
+  border: none;
+  margin: 1rem;
+  background: rgba(255, 255, 255, .85);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .15);
+  color: #473e39;
+}
+
+.item input:focus {
+  background: rgba(255, 255, 255, .95);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .15);
+  outline: none;
+}
+
+select {
+  color: black;
+  height: 2rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
+.reveal {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.button, #cmd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .15);
+  color: #fff;
+  font-size: 16px;
+  height: 60px;
+  width: 120px;
+}
+
+.button-hover {
+  background-color: firebrick;
+  cursor: pointer;
+}
+
+.location, .name, .ID, .Address, .Town, .Gender, .Wedding, .Spouse, .SpouseID {
+  text-align:center;
+  font-size: 1rem;
+  min-width: 3rem;
+  color: black;
+  background-color: yellow;
+  width: auto;
+  display: inline-block;
+}
+
+.reveal {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+.hanging {
+  display: inline-block;
+
+}
+
+#content .doc {
+  width: 60%;
+  background-image: url('../BattleStationDraft_l9f82j.png');
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65rem;
+  padding-top: 3rem;
+  color: black;
+  box-shadow: 0 2px 2px;
+
+}
+.doc .text {
+  padding: 0 2rem;
+  color: black;
+}
+#content {
+  color: black;
+  display: flex;
+  justify-content: center;
+  background-color: #dbdbdb;
+  margin-bottom: 3rem;
+  margin-top: 0.5rem;
+
+}
+
+#content h3 {
+  text-align: center;
+  line-height: 1.4;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+#content .declaration {
+  padding: 1rem 2rem;
+  text-align: justify;
+
+}
+
+#content p,
+#content span {
+  text-align: justify;
+  padding: 0.5rem 0.5rem;
+  line-height: 1.4;
+  color: black;
+
+}
+
+.commission {
+  padding: 0 2rem;
+  margin-bottom: 3rem;
+
+}
+
+.commission p,
+.commission span {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.dash {
+  padding: 10rem;
+  border-bottom: solid black 1px;
+  line-height: 0;
+}
+
+.bracket {
+  width: 60%;
+  float: right;
+}
+
+#deponent {
+  margin-left: 10rem;
+  text-align: center;
+  border-top: dashed black 1px;
+}
+
+#stampspace {
+  margin-top: 3rem;
+  font-weight: bold;
+}
+
+
+
+
+
+footer {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
