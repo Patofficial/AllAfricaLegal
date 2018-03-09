@@ -115,7 +115,7 @@ height: 25rem;
 
 #lawyer {
   color: black;
-  background-color: #d9d9db;
+  background-color: #696969;
   width: 100%;
   padding-bottom: 2rem;
 }
@@ -219,10 +219,6 @@ select {
   margin-bottom: 1rem;
 }
 
-.reveal {
-  display: flex;
-  justify-content: flex-start;
-}
 
 .button, #cmd {
   display: flex;
@@ -241,12 +237,13 @@ select {
   cursor: pointer;
 }
 
-.location, .name, .ID, .Address, .Town, .Gender, .Wedding, .Spouse, .SpouseID {
+.location, .name, .ID, .Address, .Town, .Gender, .Wedding, .Tribe, .Spouse, .SpouseID {
   text-align:center;
   font-size: 1rem;
   min-width: 3rem;
   color: black;
-  background-color: yellow;
+  background-color: rgb(239, 235, 11);
+  border-radius: 5px;
   width: auto;
   display: inline-block;
 }
@@ -269,7 +266,7 @@ select {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70rem;
+  height: 75rem;
   padding-top: 3rem;
   color: black;
   box-shadow: 0 2px 2px;
@@ -327,8 +324,7 @@ select {
 }
 
 .dash {
-  padding: 10rem;
-  border-bottom: solid black 1px;
+  margin-top: 10rem;
   line-height: 0;
 }
 
@@ -349,13 +345,79 @@ select {
   text-decoration: underline;
 }
 
+.icon {
+  display: flex;
+}
+.icon img {
+  width: 5rem;
+  height: 5rem;
+
+}
+
+.icon p {
+  width: 5rem;
+}
+
+#affidavittron{
+  color: black;
+  background-color: white;
+  width: 100%;
+  padding: 1rem;
 
 
+}
 
+#affidavittron .row{
+  display: flex;
+  margin: 1rem 0 1rem 0;;
 
+}
+
+#affidavittron h1 {
+  font-size: 3rem;
+  width: 20rem;
+  margin-right: 3rem;
+  padding: 1rem;
+}
+
+#affidavittron h3 {
+  font-size: 2rem;
+}
+
+#affidavittron p {
+  padding-bottom: 0;
+}
+
+#affidavitinfo {
+  color: black;
+  padding: 2rem;
+  text-align: justify;
+}
+
+#affidavitinfo .row {
+  margin: 1rem;
+}
+
+#affidavitinfo h1 {
+  font-size: 3rem;
+}
+
+#affidavitinfo p {
+  line-height: 1.4;
+}
+
+#affidavitinfo h2 {
+  font-size: 2rem;
+}
+
+#affidavitinfo ul {
+  background-color: #dbdbdb;
+  list-style-type: square;
+}
 footer {
   height: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 0.5rem;
 }
